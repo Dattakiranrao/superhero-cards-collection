@@ -1,4 +1,4 @@
-# superheroapp  
+# Superhero App  
 A Simple project made of HTML, CSS and JS using [Superhero API](https://superheroapi.com/).
 
 ## Take a look
