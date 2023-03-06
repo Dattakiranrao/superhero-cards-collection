@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Api</title>
+    <link rel="stylesheet" href="/css/dist/output.css">
+    <link rel="shortcut icon" href="/css/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-[#8990ec]">
+    <!-- https://superheroapi.com/ids.html -->
+    <h2 class="text-center text-5xl italic leading-relaxed text-[#272639] uppercase">Superhero Cards Collection</h2>
+    <div class="flex justify-center items-center space-x-4 mt-4">
+        <span class="rounded-xl px-10 py-4 w-[fit-content] shadow-2xl bg-[#272639]">
+            <input class="mr-4 rounded-3xl text-white bg-[#353959] px-3 py-2" type="text" id="search"
+                placeholder="Superhero Name">
+            <button class="text-white m-2 bg-blue-600 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2"
+                id="search-button">Search Hero</button>
+            <button class="text-white m-2 bg-blue-600 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2"
+                id="newsuperHero">Random Hero</button>
+        </span>
+    </div>
+    <br>
+    <div class="flex justify-center items-center font-mono">
+        <div class="flex flex-col justify-center items-center w-[550px] h-[800px] text-white bg-[#272639] rounded-3xl" id="heroImage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
